@@ -1,0 +1,567 @@
+/* 
+Theme name: Angtvattvattbilen
+Author: Malin Svensson 
+Year of creating theme: 2021 
+Course: Examensarbete, Mittuniversitetet */
+/* line 5, ../../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*_variables.scss */
+/*_everything.scss */
+/* Front-page.php */
+/* line 6, sass/_partials/_everything.scss */
+body {
+  position: relative;
+  font-family: arial;
+  max-width: 100%;
+}
+
+/* line 12, sass/_partials/_everything.scss */
+.start {
+  background-color: #9BCF60;
+}
+
+/* line 16, sass/_partials/_everything.scss */
+.mainFrontPage {
+  height: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+/* line 22, sass/_partials/_everything.scss */
+.mainFrontPage img {
+  margin: auto;
+  width: 40%;
+  text-align: center;
+  margin-top: 3%;
+}
+
+/* line 29, sass/_partials/_everything.scss */
+h1 {
+  font-size: 2.2em;
+  text-align: center;
+  font-weight: bold !important;
+}
+
+/* Bilder */
+/* line 38, sass/_partials/_everything.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 44, sass/_partials/_everything.scss */
+.sendHere h1 {
+  font-size: 2em;
+  text-align: center;
+  padding-top: 10%;
+}
+
+/* line 54, sass/_partials/_everything.scss */
+.welcome h1 {
+  font-weight: bold;
+}
+/* line 57, sass/_partials/_everything.scss */
+.welcome h2 {
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 5%;
+  font-style: italic;
+  font-size: 1.3em;
+}
+/* line 64, sass/_partials/_everything.scss */
+.welcome form {
+  margin-bottom: 2%;
+}
+/* line 68, sass/_partials/_everything.scss */
+.welcome .block {
+  max-width: 800px;
+  margin: auto;
+  display: block;
+  width: 90%;
+  border: none;
+  background-color: #9BCF60;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: left;
+  border: 1px solid black;
+  font-size: 1.2em;
+}
+/* line 82, sass/_partials/_everything.scss */
+.welcome .block:hover {
+  background-color: #026630;
+  color: white;
+}
+/* line 86, sass/_partials/_everything.scss */
+.welcome .arrow {
+  text-align: right !important;
+  float: right !important;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+  font-family: arial;
+}
+
+/* line 97, sass/_partials/_everything.scss */
+.um-profile-nav {
+  display: none !important;
+}
+
+/* line 101, sass/_partials/_everything.scss */
+.um-header {
+  border: none !important;
+}
+
+/* line 106, sass/_partials/_everything.scss */
+.members {
+  width: 90%;
+  margin: auto;
+  max-width: 1000px;
+  font-size: 0.8em;
+}
+/* line 111, sass/_partials/_everything.scss */
+.members h1 {
+  font-weight: bold;
+}
+
+/* line 116, sass/_partials/_everything.scss */
+.imagePage {
+  margin: auto;
+  text-align: center;
+  max-width: 700px;
+  text-align: left !important;
+}
+/* line 121, sass/_partials/_everything.scss */
+.imagePage h1 {
+  font-weight: bold;
+  font-size: 1.8em;
+}
+/* line 125, sass/_partials/_everything.scss */
+.imagePage h4 {
+  text-align: center;
+  font-size: 1.3em;
+  max-width: 700px;
+  margin: auto;
+}
+/* line 131, sass/_partials/_everything.scss */
+.imagePage input[type=submit] {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* line 138, sass/_partials/_everything.scss */
+.save {
+  margin: auto;
+  text-align: center;
+  max-width: 700px;
+}
+/* line 139, sass/_partials/_everything.scss */
+.save a {
+  color: #026630 !important;
+}
+/* line 145, sass/_partials/_everything.scss */
+.save label {
+  text-align: left !important;
+}
+/* line 148, sass/_partials/_everything.scss */
+.save h1 {
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+/* line 155, sass/_partials/_everything.scss */
+.theWholePage {
+  margin: auto;
+  text-align: center;
+  max-width: 700px !important;
+}
+/* line 159, sass/_partials/_everything.scss */
+.theWholePage label {
+  text-align: left !important;
+}
+/* line 162, sass/_partials/_everything.scss */
+.theWholePage h1 {
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+/* line 169, sass/_partials/_everything.scss */
+.aview {
+  margin: auto;
+  text-align: center !important;
+}
+/* line 172, sass/_partials/_everything.scss */
+.aview a {
+  color: #026630;
+  text-align: center;
+}
+/* line 176, sass/_partials/_everything.scss */
+.aview a:hover {
+  color: #9BCF60;
+}
+/* line 179, sass/_partials/_everything.scss */
+.aview h1 {
+  font-weight: bold;
+  font-size: 1.8em;
+}
+/* line 183, sass/_partials/_everything.scss */
+.aview table {
+  min-width: 1400px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 98%;
+  max-width: 1800px;
+  margin: auto;
+  font-size: 1.1em;
+}
+/* line 192, sass/_partials/_everything.scss */
+.aview td,
+.aview th {
+  border: 1px solid black;
+  padding-top: 1.3%;
+  padding-bottom: 1.3%;
+  padding-left: 0.9%;
+  padding-right: 0.9%;
+  text-align: center;
+  word-wrap: break-word;
+}
+/* line 202, sass/_partials/_everything.scss */
+.aview tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+/* line 205, sass/_partials/_everything.scss */
+.aview .label {
+  background-color: #026630 !important;
+  color: white;
+  font-weight: bold;
+}
+
+/* line 212, sass/_partials/_everything.scss */
+.viewSingle {
+  border: 3px solid #026630;
+  padding: 3%;
+  text-align: left;
+  margin: auto;
+  width: 50%;
+  max-width: 1000px;
+  line-height: 30px;
+}
+
+/* line 223, sass/_partials/_everything.scss */
+.singleField input {
+  border: none;
+  outline: none;
+}
+
+/* line 229, sass/_partials/_everything.scss */
+.saveUpdateWork {
+  display: none;
+}
+
+/* line 233, sass/_partials/_everything.scss */
+.updateWorkVisible {
+  display: block;
+}
+
+/* line 237, sass/_partials/_everything.scss */
+input[type=text],
+input[type=select] {
+  max-width: 700px;
+  cursor: pointer;
+  margin: auto;
+  font-size: 1em;
+}
+
+/* line 245, sass/_partials/_everything.scss */
+textarea {
+  max-width: 700px;
+  cursor: pointer;
+  margin: auto;
+  font-size: 1em;
+}
+
+/* line 252, sass/_partials/_everything.scss */
+select {
+  max-width: 700px;
+  cursor: pointer;
+  margin: auto;
+  text-align: center;
+  font-size: 1em;
+}
+
+/* line 260, sass/_partials/_everything.scss */
+input[type=button],
+input[type=submit],
+input[type=reset] {
+  background-color: #026630;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  width: 98%;
+  cursor: pointer;
+  margin: auto;
+  text-align: center;
+  font-size: 1em;
+  max-width: 700px;
+}
+
+/* line 277, sass/_partials/_everything.scss */
+.loginPage {
+  font-size: 1.1em;
+}
+/* line 279, sass/_partials/_everything.scss */
+.loginPage img {
+  padding-top: 40px;
+  max-width: 370px;
+  min-width: 350px;
+  padding-top: 80px;
+  margin-bottom: 30px;
+}
+/* line 286, sass/_partials/_everything.scss */
+.loginPage input {
+  width: 20%;
+  margin-bottom: 20px;
+  margin-top: 1%;
+  padding: 5px;
+  min-width: 150px;
+  max-width: 200px;
+  font-size: 0.9em;
+}
+/* line 295, sass/_partials/_everything.scss */
+.loginPage input[type=button],
+.loginPage input[type=submit],
+.loginPage input[type=reset] {
+  background-color: #026630;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  width: 21%;
+  cursor: pointer;
+  margin: auto;
+  text-align: center;
+  font-size: 1em;
+  margin-top: 1%;
+  border-radius: 2px;
+  min-width: 150px;
+}
+
+/* line 315, sass/_partials/_everything.scss */
+label {
+  font-size: 1.1em;
+}
+
+/* line 319, sass/_partials/_everything.scss */
+a {
+  font-size: 1.1em;
+  color: white;
+}
+
+/*_footer.scss */
+/* line 3, sass/_partials/_footer.scss */
+footer {
+  width: 100%;
+  position: absolute;
+  background-color: #9BCF60;
+  margin: auto;
+  font-size: 1.1em;
+}
+/* line 9, sass/_partials/_footer.scss */
+footer a {
+  color: black;
+}
+
+/* line 14, sass/_partials/_footer.scss */
+.row {
+  padding-left: 230px;
+  margin-top: 15px;
+  max-width: 1150px;
+  margin: auto;
+}
+
+/* line 21, sass/_partials/_footer.scss */
+footer a:hover {
+  color: #026630;
+}
+
+/* line 25, sass/_partials/_footer.scss */
+.column {
+  line-height: 30px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 33.33%;
+  float: left;
+}
+
+/* line 33, sass/_partials/_footer.scss */
+.column3 {
+  line-height: 30px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 33.33%;
+  float: right;
+}
+
+/* line 41, sass/_partials/_footer.scss */
+.column2 {
+  line-height: 30px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 33.33%;
+  float: right;
+}
+
+/* Under footer */
+/* line 52, sass/_partials/_footer.scss */
+.bottomOffooter {
+  font-size: 0.8em;
+  text-align: center;
+  background-color: #9BCF60;
+  padding: 1%;
+  margin-top: 100px !important;
+  line-height: 20px;
+  max-width: 1150px;
+  margin: auto;
+}
+
+/* line 63, sass/_partials/_footer.scss */
+h4 {
+  font-weight: bolder;
+}
+
+/*_header.scss */
+/*_nav.scss */
+/* line 3, sass/_partials/_nav.scss */
+nav {
+  background-color: #9BCF60 !important;
+}
+/* line 5, sass/_partials/_nav.scss */
+nav a {
+  color: #026630 !important;
+}
+/* line 8, sass/_partials/_nav.scss */
+nav a:hover {
+  color: white !important;
+  background-color: #026630 !important;
+}
+
+/*_responsive.scss */
+/* Responsivitet med media queries */
+@media all and (max-width: 300000px) {
+  /* line 7, sass/_partials/_responsive.scss */
+  .spaceInFooter {
+    display: none;
+  }
+}
+@media all and (max-width: 1300px) {
+  /* line 13, sass/_partials/_responsive.scss */
+  column {
+    width: 100%;
+  }
+
+  /* line 16, sass/_partials/_responsive.scss */
+  footer {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 20, sass/_partials/_responsive.scss */
+  footer .column {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 3%;
+    padding-top: 3%;
+  }
+  /* line 27, sass/_partials/_responsive.scss */
+  footer .column2 {
+    width: 100%;
+    padding-bottom: 3%;
+  }
+  /* line 31, sass/_partials/_responsive.scss */
+  footer .column3 {
+    width: 100%;
+  }
+  /* line 34, sass/_partials/_responsive.scss */
+  footer .row {
+    padding: 0;
+    margin-bottom: 10%;
+  }
+  /* line 38, sass/_partials/_responsive.scss */
+  footer .spaceInFooter {
+    display: block;
+  }
+  /* line 41, sass/_partials/_responsive.scss */
+  footer .bottomOffooter {
+    width: 100%;
+    padding: 1%;
+    padding-top: 4%;
+    z-index: -5;
+  }
+}
